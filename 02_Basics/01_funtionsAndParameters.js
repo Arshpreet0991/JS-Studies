@@ -23,3 +23,11 @@ function addTwoNum(n1,n2){
 const result=addTwoNum(3,5)
 console.log("result",result);
 // now the output wont be undefined. So in JS we need to use return if we want to use the value from a funtion
+
+//passing parameters
+function loginUserMessage(username){
+    return`${username} just logged in`
+}
+
+console.log(loginUserMessage("Arsh"))
+
