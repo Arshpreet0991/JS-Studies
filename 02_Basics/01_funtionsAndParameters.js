@@ -31,3 +31,11 @@ function loginUserMessage(username){
 
 console.log(loginUserMessage("Arsh"))
 
+// sometimes we dont know how many parameters can a user input. For ex. a shopping cart
+
+function calculateCartPrice(...num1){
+    return num1;
+}
+
+console.log(calculateCartPrice(1,2,5,67,2,4,5,6,6,));
+// we can pass as many arguements as we want, the function will create an Array for the arguements passed
