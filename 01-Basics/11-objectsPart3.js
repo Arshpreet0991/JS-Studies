@@ -9,7 +9,7 @@ const tekkenKeyMove={
 }
 
 // deconstructing object
-const {russianAssault}=tekkenKeyMove // declare a variable then use the objec key inside {} and assigns to object name.
+const {russianAssault}=tekkenKeyMove // declare a variable then use the object key inside {} and assign(=) to object name.
 console.log(russianAssault);// after deconstructing, the code looks much cleaner as i dont have to write tekkenkeymoves.movename again and again
 
 //we can also give the key, our own name. for ex.
